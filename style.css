@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+}
+
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+
+#videos iframe {
+    width: 80%;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+input {
+    background: grey;
+}
+
+.rowafter{
+  content:"";
+  clear:both;
+  display:table;
+}
+
+.travel_maindiv
+{ 
+float:left;
+  width:33.33%
+    padding:5px;
+  border:1px solid #c7c7c7;
+}
+
+.travel_maindiv img
+{
+  width:100p%;
+  height:300px;
+  right:100px;
+}
+
+.travel_maindiv hr
+{
+  width:100%;
+}
+
+.travel_maindiv h5 , .travel_maindiv p
+{
+  margin-left:20px;
+}
+#achivementID
+{
+  padding-bottom:10px; 
+}
+.movie_head{
+  font-size:20px;
+  padding:6px 22px;
+  border-radius:10px;
+  margin-bottom:15px;
+  width:100%;
+  display:inline-block;
+}
+.movie-head i
+{
+  float:right;
+}
+.movie_text span{
+  color:orange;
+}
